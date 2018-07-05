@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class VCodeController {
 
-    public void getVcode(HttpRequest ){
-         VCodeUtil vCode = new VCodeUtil(100, 30, 5, 10);
-
-         session.setAttribute("code", vCode.getCode()); //保存在Session作用
-         vCode.write(response.getOutputStream());
-    }
+//    public void getVcode(){
+//         VCodeUtil vCode = new VCodeUtil(100, 30, 5, 10);
+//
+//         session.setAttribute("code", vCode.getCode()); //保存在Session作用
+//         vCode.write(response.getOutputStream());
+//    }
 
 }
